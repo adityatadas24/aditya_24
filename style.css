@@ -1,0 +1,97 @@
+
+.nav{
+
+    background-color: black;
+     
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   
+    
+    
+}
+.nav>h3{
+    display:inline-block;
+    color: white;
+    width: 1000px;
+    padding-inline: 50px;
+   
+}
+h3:hover{
+    color: blue;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 20px;
+    
+}
+a:hover{
+    color: blue;
+}
+#books{
+    width: 40vw;
+    background-color: aliceblue;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 110px;
+    box-sizing: border-box;
+}
+th , td{
+    border: 1px solid black;
+    width:150px;
+    height: 20px;
+}
+th{
+    text-align: left;
+}
+.px{
+    width: 170px;
+
+}
+
+
+#register{
+    width:40vw;
+    height: 520px;
+    margin:0 auto;
+    
+    background-color: aliceblue;
+  
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+   
+    
+    
+} 
+.adi{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 600px;
+}
+#btn{
+    /* position:absolute;
+    right: 220px; */
+    color: white;
+    background-color: black;
+    padding: 5px;
+    width: 610px;
+    
+}
+ 
+
+
