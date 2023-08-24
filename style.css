@@ -1,97 +1,63 @@
 
-.nav{
-
-    background-color: black;
-     
-    position: sticky;
-    top: 0px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.8);
-   
-    
-    
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
 }
-.nav>h3{
-    display:inline-block;
+@media screen and (max-width:768px) {
+    .box{
+     background-color: red;
+    }
+}
+@media screen and (min-width:8ccc00px) {
+    .box{
+      background-color: green;
+    }
+} */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navigation>ul{
+    display: flex;
+    justify-content:;
     color: white;
-    width: 1000px;
-    padding-inline: 50px;
-   
-}
-h3:hover{
-    color: blue;
-
-}
-a{
-    text-decoration: none;
-    color: white;
-    padding-inline: 20px;
-    
-}
-a:hover{
-    color: blue;
-}
-#books{
-    width: 40vw;
-    background-color: aliceblue;
-   justify-content: center;
-   align-items: center;
-   margin: 0 auto;
-   padding: 20px;
-   border-radius: 5px;
-   box-shadow: 0 0 10px rgba(0,0,0,0.8);
-   
-}
-table{
-    border: 1px solid black;
-    border-collapse: collapse;
-    height: 110px;
-    box-sizing: border-box;
-}
-th , td{
-    border: 1px solid black;
-    width:150px;
-    height: 20px;
-}
-th{
-    text-align: left;
-}
-.px{
-    width: 170px;
-
-}
-
-
-#register{
-    width:40vw;
-    height: 520px;
-    margin:0 auto;
-    
-    background-color: aliceblue;
-  
+    background-color: rgb(201, 193, 193);
+    list-style-type:none;
     padding: 20px;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-    
-    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    cursor: pointer;
+    opacity: inherit;
    
-    
-    
-} 
-.adi{
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 600px;
 }
-#btn{
-    /* position:absolute;
-    right: 220px; */
-    color: white;
-    background-color: black;
-    padding: 5px;
-    width: 610px;
-    
-}
+.gallery{
+   display:flex;
+   width: 100vw; 
+   grid-template-columns: repeat(3,1fr);
+   gap: 10px;
  
-
-
+}
+.gallery>img{
+    width: 200px;
+    height: 200px;
+}
+.navigation>ul>li:hover{
+    color: red;
+    scale: 1.5;
+}
+@media screen and (max-width:768px) {
+    .navigation>ul{
+       flex-direction: column;
+       align-items: center; 
+       padding: 0px;
+    } 
+    .navigation>ul>li{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0px 1px 1px white; 
+     } 
+     .gallery{
+        grid-template-columns: repeat(1,1fr);
+     }
+ }
+}
